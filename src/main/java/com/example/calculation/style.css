@@ -1,0 +1,15 @@
+.no-scrollbar-text-area {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 1 0 1 1;
+    -fx-background-radius: 0;
+    -fx-wrap-text: true;
+    -fx-control-inner-background: transparent;
+    -fx-background-insets: 0;
+}
+
+.no-scrollbar-text-area .scroll-pane > .scroll-bar:vertical,
+.no-scrollbar-text-area .scroll-pane > .scroll-bar:horizontal {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
